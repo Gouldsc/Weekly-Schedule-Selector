@@ -17,7 +17,7 @@ struct ScheduleView: View
 															   .Wednessday : "W",
 															   .Thursday : "Th",
 															   .Friday : "F",
-															   .Saturday : "S"]
+															   .Saturday : "Sa"]
 	let daysOfTheWeekKeys = [DayOfTheWeek.Sunday,
 							 DayOfTheWeek.Monday,
 							 DayOfTheWeek.Tuesday,
