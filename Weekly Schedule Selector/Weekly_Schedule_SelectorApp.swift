@@ -8,10 +8,17 @@
 import SwiftUI
 
 @main
-struct Weekly_Schedule_SelectorApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+struct Weekly_Schedule_SelectorApp: App
+{
+	var body: some Scene
+	{
+		WindowGroup
+		{
+			ContentView()
+		}
+		Settings
+		{
+			SettingsView()
+		}
+	}
 }

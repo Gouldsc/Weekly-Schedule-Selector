@@ -11,6 +11,19 @@
 		9638297826D54FE000354C63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638297726D54FE000354C63 /* ContentView.swift */; };
 		9638297A26D54FE200354C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9638297926D54FE200354C63 /* Assets.xcassets */; };
 		9638297D26D54FE200354C63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9638297C26D54FE200354C63 /* Preview Assets.xcassets */; };
+		9638298526D5506F00354C63 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638298426D5506F00354C63 /* ScheduleView.swift */; };
+		9638298726D5509400354C63 /* DayColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638298626D5509400354C63 /* DayColumnView.swift */; };
+		9638298926D550BF00354C63 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638298826D550BF00354C63 /* SettingsView.swift */; };
+		9638298B26D550F900354C63 /* DayRangeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638298A26D550F900354C63 /* DayRangeSliderView.swift */; };
+		9638298D26D5512E00354C63 /* ScheduleRangeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638298C26D5512E00354C63 /* ScheduleRangeSliderView.swift */; };
+		9638298F26D5515100354C63 /* TimeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638298E26D5515100354C63 /* TimeDisplayView.swift */; };
+		9638299126D5517500354C63 /* DragHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638299026D5517500354C63 /* DragHandleView.swift */; };
+		9638299626D551E400354C63 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638299526D551E400354C63 /* ScheduleViewModel.swift */; };
+		9638299826D5528500354C63 /* SnappingCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638299726D5528500354C63 /* SnappingCalculator.swift */; };
+		9638299A26D5529B00354C63 /* TimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638299926D5529B00354C63 /* TimeConverter.swift */; };
+		9638299C26D552D200354C63 /* TimeInHoursAndMinutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638299B26D552D200354C63 /* TimeInHoursAndMinutes.swift */; };
+		9638299E26D552FA00354C63 /* DayTimeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638299D26D552FA00354C63 /* DayTimeBlock.swift */; };
+		963829A026D553A700354C63 /* Color+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638299F26D553A700354C63 /* Color+RawRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		9638297726D54FE000354C63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9638297926D54FE200354C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9638297C26D54FE200354C63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9638298426D5506F00354C63 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		9638298626D5509400354C63 /* DayColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayColumnView.swift; sourceTree = "<group>"; };
+		9638298826D550BF00354C63 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9638298A26D550F900354C63 /* DayRangeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRangeSliderView.swift; sourceTree = "<group>"; };
+		9638298C26D5512E00354C63 /* ScheduleRangeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRangeSliderView.swift; sourceTree = "<group>"; };
+		9638298E26D5515100354C63 /* TimeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplayView.swift; sourceTree = "<group>"; };
+		9638299026D5517500354C63 /* DragHandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragHandleView.swift; sourceTree = "<group>"; };
+		9638299526D551E400354C63 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		9638299726D5528500354C63 /* SnappingCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingCalculator.swift; sourceTree = "<group>"; };
+		9638299926D5529B00354C63 /* TimeConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConverter.swift; sourceTree = "<group>"; };
+		9638299B26D552D200354C63 /* TimeInHoursAndMinutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInHoursAndMinutes.swift; sourceTree = "<group>"; };
+		9638299D26D552FA00354C63 /* DayTimeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeBlock.swift; sourceTree = "<group>"; };
+		9638299F26D553A700354C63 /* Color+RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+RawRepresentable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				9638297526D54FE000354C63 /* Weekly_Schedule_SelectorApp.swift */,
-				9638297726D54FE000354C63 /* ContentView.swift */,
+				9638298326D5504100354C63 /* Views */,
+				9638299326D551A100354C63 /* ViewModels */,
+				9638299426D551AF00354C63 /* Model */,
 				9638297926D54FE200354C63 /* Assets.xcassets */,
 				9638297B26D54FE200354C63 /* Preview Content */,
 			);
@@ -65,6 +93,49 @@
 				9638297C26D54FE200354C63 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9638298326D5504100354C63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9638297726D54FE000354C63 /* ContentView.swift */,
+				9638298426D5506F00354C63 /* ScheduleView.swift */,
+				9638298626D5509400354C63 /* DayColumnView.swift */,
+				9638298826D550BF00354C63 /* SettingsView.swift */,
+				9638299226D5518A00354C63 /* RangeSliderViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9638299226D5518A00354C63 /* RangeSliderViews */ = {
+			isa = PBXGroup;
+			children = (
+				9638298A26D550F900354C63 /* DayRangeSliderView.swift */,
+				9638298C26D5512E00354C63 /* ScheduleRangeSliderView.swift */,
+				9638298E26D5515100354C63 /* TimeDisplayView.swift */,
+				9638299026D5517500354C63 /* DragHandleView.swift */,
+			);
+			path = RangeSliderViews;
+			sourceTree = "<group>";
+		};
+		9638299326D551A100354C63 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9638299526D551E400354C63 /* ScheduleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9638299426D551AF00354C63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9638299726D5528500354C63 /* SnappingCalculator.swift */,
+				9638299926D5529B00354C63 /* TimeConverter.swift */,
+				9638299B26D552D200354C63 /* TimeInHoursAndMinutes.swift */,
+				9638299D26D552FA00354C63 /* DayTimeBlock.swift */,
+				9638299F26D553A700354C63 /* Color+RawRepresentable.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +208,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9638298F26D5515100354C63 /* TimeDisplayView.swift in Sources */,
+				9638298926D550BF00354C63 /* SettingsView.swift in Sources */,
 				9638297826D54FE000354C63 /* ContentView.swift in Sources */,
+				9638299626D551E400354C63 /* ScheduleViewModel.swift in Sources */,
+				9638299826D5528500354C63 /* SnappingCalculator.swift in Sources */,
+				963829A026D553A700354C63 /* Color+RawRepresentable.swift in Sources */,
+				9638298B26D550F900354C63 /* DayRangeSliderView.swift in Sources */,
+				9638298726D5509400354C63 /* DayColumnView.swift in Sources */,
+				9638299E26D552FA00354C63 /* DayTimeBlock.swift in Sources */,
 				9638297626D54FE000354C63 /* Weekly_Schedule_SelectorApp.swift in Sources */,
+				9638298526D5506F00354C63 /* ScheduleView.swift in Sources */,
+				9638299A26D5529B00354C63 /* TimeConverter.swift in Sources */,
+				9638299C26D552D200354C63 /* TimeInHoursAndMinutes.swift in Sources */,
+				9638299126D5517500354C63 /* DragHandleView.swift in Sources */,
+				9638298D26D5512E00354C63 /* ScheduleRangeSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
