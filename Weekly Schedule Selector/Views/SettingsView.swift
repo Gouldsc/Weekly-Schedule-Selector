@@ -25,7 +25,7 @@ struct SettingsView: View
 {
 	@AppStorage( SettingsKeys.clockStyle ) var clockStyle: HourRepresentationStyle = .twelveHour
 	@AppStorage( SettingsKeys.selectedColor ) var selectedColor: Color = Color( #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1) )
-	@AppStorage( SettingsKeys.scheduleStart ) var scheduleStart: Int = 30
+	@AppStorage( SettingsKeys.scheduleStart ) var scheduleStart: TimeInterval = 30
 	@AppStorage( SettingsKeys.scheduleEnd ) var scheduleEnd: TimeInterval = 50
 	
 	

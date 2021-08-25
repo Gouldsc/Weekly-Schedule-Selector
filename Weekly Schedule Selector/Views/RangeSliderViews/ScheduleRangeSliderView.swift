@@ -17,7 +17,7 @@ struct ScheduleRangeSliderView: View
 	@AppStorage( SettingsKeys.scheduleEnd ) var scheduleEnd: TimeInterval = 96
 	
 	@State var handle1Position = CGPoint( x: 20, y: 0 )
-	@State var handle2Position = CGPoint( x: 80, y: 0 )
+	@State var handle2Position = CGPoint( x: 350, y: 0 )
 	@State var totalWidth: CGFloat
 	
 	var body: some View
